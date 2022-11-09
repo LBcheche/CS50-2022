@@ -8,7 +8,7 @@ I understand that everyone who has worked hard in the learning process has the r
 
 The intentions in publicizing my CS50x algorithms are to stimulate discussion and insights into different solutions and to help those who feel extremely stuck after trying so hard. Sometimes, finding out we are on the right track is enough to find a typo and move on. 
 
->So I encourage you not to copy these codes directly without doing your best to figure out your own viable solution or even not understanding what is going on. This would be not only unethical with [CS50x Team](https://cs50.harvard.edu/x/2020/honesty/), but you are leaving out the best part of it: the fun learning process and the feeling of empowerment after accomplish this path. This is priceless. This is CS50. 
+>So I encourage you not to copy these codes directly without doing your best to figure out your own viable solution or even not understanding what is going on. This would be not only unethical with [CS50x Team](https://cs50.harvard.edu/x/2020/honesty/), but would leave out the best part of it: the fun learning process and the feeling of empowerment after accomplish this path. This is priceless. This is CS50. 
 
 Take a peek.
 
