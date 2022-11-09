@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+
+{% block main %}
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Date & Time</th>
+                <th>Ticker</th>
+                <th>Operation</th>
+                <th>Amount</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            {% for order in history %}
+                <tr>
+                    <td>{{order["timestamp"]}}</td>
+                    <td>{{order["ticker"]}}</td>
+                    <td>{{order["type"]}}</td>
+                    <td>{{order["amount"]}}</td>
+                    <td>{{order["usd_price"]}}</td>
+                    <td>{{order["usd_total"]}}</td>
+                </tr>
+            {% endfor %}
+
+        </tbody>
+
+        <script>
+
+        </script>
+    </table>
+{% endblock %}

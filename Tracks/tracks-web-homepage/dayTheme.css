@@ -1,0 +1,132 @@
+body
+{
+    background:#e8e8e8;
+    /*color:#f55f00;*/
+    /*color:#1c90ff;*/
+    color:black;
+    position:relative;
+}
+
+nav
+{
+     background: white;
+     position:fixed;
+     width: 100%;
+     z-index:10;
+}
+
+/*.miniLogo*/
+/*{*/
+/*    display: block;*/
+/*    width:70%;*/
+/*}*/
+
+table
+{
+    border-spacing:0;
+    border-collapse: collapse;
+
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+
+    position:relative;
+    z-index:0;
+
+    /*float:center;*/
+}
+
+.img-over{
+    position:absolute;
+    z-index:1;
+}
+
+.img-over-left{
+    position:absolute;
+    right:10px;
+    z-index:2;
+    top:5px;
+}
+
+td
+{
+    border: 0px ;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+table a
+{
+    display: block;
+    padding: 10px 20px;
+    color:#7c45ff;
+}
+
+table a:hover, .active
+{
+    background: #7c45ff;
+    color:white;
+    text-decoration: none;
+}
+
+article
+{
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    background:#cccccc;
+    padding:2% ;
+}
+
+
+h1{
+    color:#f306ff;
+}
+
+h2{
+    /*color:#f4d300;*/
+    /*37ff80*/
+    /*7c45ff*/
+    color:blue;
+}
+
+strong, h4
+{
+    color:#1c90ff;
+}
+
+footer
+{
+     background: white;
+     width: 100%;
+     position:fixed;
+     bottom:0%;
+
+}
+
+.newCardTop
+{
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    /*border-top-right-radius: 0;*/
+    /*border-top-left-radius: 0;*/
+    background-color:#cccccc;
+}
+
+.card {
+  background-color: #cccccc;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0px;
+  margin: 0px 0px;
+  cursor: pointer;
+}

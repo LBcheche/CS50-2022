@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block style %}
+    .td, th, tr
+    {
+        text-align: left;
+    }
+{% endblock %}
+
+{% block main %}
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4"></td>
+                <td><b>{{total}}</b></td>
+            </tr>
+        </tfoot>
+        <tbody>
+
+            {% for share in portfolio %}
+                <tr>
+                    <td>{{share["ticker"]}}</td>
+                    <td>{{share["company_name"]}}</td>
+                    <td>{{share["amount"]}}</td>
+                    <td>{{share["usd_current_price"]}}</td>
+                    <td>{{share["usd_current_total"]}}</td>
+                </tr>
+            {% endfor %}
+
+            <tr>
+                <td class=cash colspan="4" >CASH</td>
+                <td>{{cash}}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
