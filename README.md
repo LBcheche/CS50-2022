@@ -54,4 +54,4 @@ Take a peek.
  
 ## Thanks
 
-> I would like to register special thanks to professors David Malan, Brian Yu, Doug Lloyd and the entire CS50x Team for their outstanding and captivating teaching methodology. This course was a real game changer for me. Thank you!
+I would like to register special thanks to professors David Malan, Brian Yu, Doug Lloyd and the entire CS50x Team for their outstanding and captivating teaching methodology. This course was a real game changer for me. Thank you!
